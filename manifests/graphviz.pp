@@ -1,5 +1,5 @@
 class packages::graphviz {
-  package{'graphiz':
+  package{'graphviz':
     ensure => present,
   }
 }
