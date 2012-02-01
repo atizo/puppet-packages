@@ -1,6 +1,6 @@
 class packages::imagemagick {
   require avahi
-  package{'ImageMagick':
+  package{"ImageMagick.$architecture":
     ensure => present,
   }
 }

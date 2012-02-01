@@ -1,5 +1,5 @@
 class packages::imagemagick-devel {
-  package{'ImageMagick-devel':
+  package{"ImageMagick-devel.$architecture":
     ensure => present,
   }
 }
